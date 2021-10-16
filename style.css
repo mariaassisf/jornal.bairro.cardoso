@@ -1,0 +1,201 @@
+header{
+
+    padding: 5px;
+    text-align: center;
+    font-style: oblique;
+   font-family:Arial;
+   background-color: rgb(170, 224, 219);
+   animation: trocar-cor-fonte 2s ease alternate
+}
+
+
+
+body{
+    margin: 0px;
+    background-color: rgb(138, 208, 223);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+        }
+    nav a{
+        color:white;
+    } 
+        
+
+       nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    nav li:hover{
+        
+        padding: 10px;        
+    }
+
+    nav li:hover{
+        background-color:rgb(108, 199, 191);
+        color: rgb(253, 253, 253);
+    }
+
+    #foto1{
+        width: 250px;
+        height: 200px;
+        float: left;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 20px;
+        padding-top: 30px;         
+             
+    }
+    #entrada1{
+        text-align: center;
+    }
+    #entrada2{
+        text-align: center;
+        }
+    #primeiroparagrafo{
+        font-style: oblique;
+        font-family:Arial ;
+        margin: 0px;
+        background-color: rgb(216, 216, 216);
+       margin-left: 100px;
+       margin-right: 100px;
+       padding: 50px;  
+        }
+    .rosa{
+        color: rgba(245, 72, 101, 0.904);
+    }
+    .azul{
+        color: rgba(54, 173, 163, 0.904);
+    }
+    .vermelha{
+        color: red;
+    }
+    .verde{
+        color: green;
+    }
+    .laranja{
+        color: orange;
+    }
+    footer{
+        background-color: rgb(72, 129, 129);
+        padding: 5px;
+        text-align: center;
+        font-family: Arial;
+        height: 190px;
+        font-size: 15px;
+        font-style: italic;
+        color: white;  
+        
+
+           }
+    .PRIMEIRADIVDAFOTO{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+     #segundoparagrafo{
+        font-style: oblique;
+        font-family:Arial ;
+        margin: 0px;
+        background-color: rgb(216, 216, 216);
+       margin-left: 100px;
+       margin-right: 100px;
+       padding: 50px;  
+            
+    }
+    .SEGUNDADIVDAFOTO{
+        margin-left: 100px;
+        margin-right: 100px;
+     }
+     #foto2{
+         width: 200px;
+         height: 150px;
+         float: right;
+         margin-right: 20px;
+         margin-left: 20px;
+         padding: 20px;
+     }
+     #segundoparagrafo2{
+         background-color: rgb(216, 216, 216);
+         font-style: oblique;
+         font-family: Arial;
+         margin-left: 100px;
+         margin-right: 100px;
+         padding: 50px;
+            }
+              #video{
+                padding: 20px;
+                margin-left: 50px;
+            }
+           #terceiroparagrafo3{
+            background-color: rgb(216, 216, 216);
+            font-style: oblique;
+            font-family: Arial;
+            margin-left: 100px;
+            margin-right: 100px;
+            padding: 50px;
+            }
+            main a:link{
+                color: chartreuse;
+
+            }
+            main a:visited{
+                color: black;
+
+            }
+            .titulo-1{
+                transition: all 2s ease;
+                animation: trocar-cor-fonte 30s ease alternate
+               }
+               @keyframes trocar-cor-fonte{
+                0%{
+                    color: cyan;
+                }
+                10%{
+                    color: navy;
+                }
+                20%{
+                    color: slateblue;
+                }
+                30%{
+                    color: teal;
+                }
+                40%{
+                color: rgb(27, 161, 79);
+                }
+                50%{
+                    color: purple;
+                }
+                60%{
+                    color: rebeccapurple;
+                }
+                70%{
+                    color: rgb(51, 146, 137);
+                }
+                80%{
+                    color: mediumblue;
+                }
+                90%{
+                    color: mediumpurple;
+                }
+                100%{
+                    color: white;
+                }
+                
+                           
+                }
+            .titulo-1:hover{
+                transform: scale(2)  rotateY(360deg)  ;
+                
+                        }
+                       
+            
+       
+        
+
+                                
